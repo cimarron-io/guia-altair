@@ -13,7 +13,7 @@ Puedes explorar los capítulos del libro utilizando la barra de navegación a la
 Si notas un error o quieres agreagar algo al libro puedes abrir un `issue` en el [repo de GitHub](https://github.com/chekos/visualizacion_de_datos_con_altair) o si quieres contribuir al proyecto `Jupyter Books` original ve a su [repositorio](https://github.com/choldgraf/jupyter-book). 
 ¡Gracias por la ayuda!
 
-## Agradecimientos
+## Agradecimientos 
 
 Jupyter Books fue originalmente creado por [Sam Lau][sam] y [Chris Holdgraf][chris]
 con el apoyo de **UC Berkeley Data Science Education Program and the Berkeley
