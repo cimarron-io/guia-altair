@@ -1,4 +1,4 @@
-# Visualización de Datos con Altair <img src="images/logos/altair-logo-light.png" width=45 style="vertical-align:sub" />
+# <img src="images/logos/altair-logo-light.png" width=45 style="vertical-align:sub" />Visualización de Datos con Altair 
 
 Esta es una guía para el taller "Visualización de Datos con Altair" presentado en [#PythonDayMX](pythonday.mx) el 30 de noviembre en Guadalajara, Jalisco, México.
 
