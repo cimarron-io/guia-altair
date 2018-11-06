@@ -16,14 +16,14 @@
 
 #######################################################################################
 # Jekyll site settings
-title: Jupyter Books
-author: Samuel Lau and Deborah Nolan and Chris Holdgraf
-email: samlau95@berkeley.edu
+title: Visualización de Datos con Altair
+author: Sergio Sánchez
+email: sergio@cimarron.io
 description: >- # this means to ignore newlines until "baseurl:"
-  This is an example book built with Jupyter Books.
+  Esta es una guía para el taller "visualización de datos con altair" impartido en PythonDayMX 2018.
 
-baseurl: "/jupyter-book" # the subpath of your site, e.g. /blog
-url: "https://predictablynoisy.com" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/jupyter-book" # the subpath of your site, e.g. /blog
+# url: "https://predictablynoisy.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################################
 # Jupyter Book settings
