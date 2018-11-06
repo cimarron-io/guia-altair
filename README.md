@@ -1,7 +1,8 @@
 # <img src="images/logos/altair-logo-light.png" width=45 style="vertical-align:sub" />Visualización de Datos con Altair 
 
 Esta es una guía para el taller "Visualización de Datos con Altair" presentado en [#PythonDayMX](pythonday.mx) el 30 de noviembre en Guadalajara, Jalisco, México.
-
+ 
+ 
 ## Explorando el libro
 
 Esta guía es un libro `jupyter` (como `jupyter notebooks` pero libro no libretas 😝).
