@@ -22,7 +22,7 @@ email: sergio@cimarron.io
 description: >- # this means to ignore newlines until "baseurl:"
   Esta es una guía para el taller "visualización de datos con altair" impartido en PythonDayMX 2018.
 
-# baseurl: "/jupyter-book" # the subpath of your site, e.g. /blog
+baseurl: "/altair" # the subpath of your site, e.g. /blog
 # url: "https://predictablynoisy.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################################
