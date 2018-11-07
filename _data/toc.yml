@@ -18,6 +18,8 @@
 
 - title: Glosario
   url: /glosario/glosario
+  not_numbered: true
+
 
 
 - divider: true

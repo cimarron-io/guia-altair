@@ -2,13 +2,13 @@
 redirect_from:
   - "/intro"
   - "/"
-title: 'Home'
+title: 'Introducción'
 prev_page:
   url: 
   title: ''
 next_page:
-  url: /features/features
-  title: 'Features'
+  url: /glosario/glosario
+  title: 'Glosario'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Altair
