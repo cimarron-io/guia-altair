@@ -1,0 +1,7 @@
+# Glosario
+
+ working on it 
+
+
+
+
