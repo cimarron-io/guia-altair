@@ -25,8 +25,8 @@
 - divider: true
 - header: Demo textbook
 
-- title: Data Science
-  url: /01/what-is-data-science
+- title: ¿qué es la "grámatica de gráficos"?
+  url: /01/gramatica-de-graficos
   sections:
   - title: Introduction
     url: /01/1/intro
