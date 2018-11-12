@@ -12,11 +12,6 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
-  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
-  
-
 *Call expressions* invoke functions, which are named operations. The name of the function appears first, followed by expressions in parentheses. 
 
 
@@ -29,13 +24,11 @@ abs(-12)
 
 
 
-    
 
 {:.output_data_text}
 ```
 12
 ```
-
 
 
 
@@ -49,13 +42,11 @@ round(5 - 1.3)
 
 
 
-    
 
 {:.output_data_text}
 ```
 4
 ```
-
 
 
 
@@ -69,13 +60,11 @@ max(2, 2 + 3, 4)
 
 
 
-    
 
 {:.output_data_text}
 ```
 5
 ```
-
 
 
 
@@ -95,13 +84,11 @@ math.sqrt(operator.add(4, 5))
 
 
 
-    
 
 {:.output_data_text}
 ```
 3.0
 ```
-
 
 
 
@@ -117,13 +104,11 @@ An equivalent expression could be expressed using the `+` and `**` operators ins
 
 
 
-    
 
 {:.output_data_text}
 ```
 3.0
 ```
-
 
 
 
@@ -141,13 +126,11 @@ iowa = 16.25
 
 
 
-    
 
 {:.output_data_text}
 ```
 142.6462836056932
 ```
-
 
 
 
@@ -178,13 +161,11 @@ math.log(16, 2)
 
 
 
-    
 
 {:.output_data_text}
 ```
 4.0
 ```
-
 
 
 
@@ -198,13 +179,11 @@ math.log(16)/math.log(2)
 
 
 
-    
 
 {:.output_data_text}
 ```
 4.0
 ```
-
 
 
 

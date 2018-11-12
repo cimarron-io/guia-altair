@@ -12,11 +12,6 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
-  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
-  
-
 Boolean values most often arise from comparison operators. Python includes a variety of operators that compare values. For example, `3` is larger than `1 + 1`.
 
 
@@ -29,13 +24,11 @@ Boolean values most often arise from comparison operators. Python includes a var
 
 
 
-    
 
 {:.output_data_text}
 ```
 True
 ```
-
 
 
 
@@ -62,13 +55,11 @@ An expression can contain multiple comparisons, and they all must hold in order 
 
 
 
-    
 
 {:.output_data_text}
 ```
 True
 ```
-
 
 
 
@@ -86,13 +77,11 @@ min(x, y) <= (x+y)/2 <= max(x, y)
 
 
 
-    
 
 {:.output_data_text}
 ```
 True
 ```
-
 
 
 
@@ -108,12 +97,10 @@ Strings can also be compared, and their order is alphabetical. A shorter string 
 
 
 
-    
 
 {:.output_data_text}
 ```
 True
 ```
-
 
 

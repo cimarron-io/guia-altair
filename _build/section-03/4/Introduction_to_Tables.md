@@ -12,11 +12,6 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
-  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
-  
-
 We can now apply Python to analyze data. We will work with data stored in Table structures.
 
 Tables are a fundamental way of representing data sets. A table can be viewed in two ways:
@@ -37,7 +32,6 @@ cones
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -71,7 +65,6 @@ cones
 
 
 
-
 The table has six rows. Each row corresponds to one ice cream cone. The ice cream cones are the *individuals*.
 
 Each cone has three attributes: flavor, color, and price. Each column contains the data on one of these attributes, and so all the entries of any single column are of the same kind. Each column has a label. We will refer to columns by their labels.
@@ -90,7 +83,6 @@ cones.show(2)
 ```
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -112,7 +104,6 @@ cones.show(2)
 </div>
 
 
-
 You can replace 2 by any number of rows. If you ask for more than six, you will only get six, because `cones` only has six rows.
 
 ### Choosing Sets of Columns
@@ -128,7 +119,6 @@ cones.select('Flavor')
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -162,7 +152,6 @@ cones.select('Flavor')
 
 
 
-
 This leaves the original table unchanged.
 
 
@@ -175,7 +164,6 @@ cones
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -209,7 +197,6 @@ cones
 
 
 
-
 You can select more than one column, by separating the column labels by commas.
 
 
@@ -222,7 +209,6 @@ cones.select('Flavor', 'Price')
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -253,7 +239,6 @@ cones.select('Flavor', 'Price')
     </tbody>
 </table>
 </div>
-
 
 
 
@@ -269,7 +254,6 @@ cones.drop('Color')
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -300,7 +284,6 @@ cones.drop('Color')
     </tbody>
 </table>
 </div>
-
 
 
 
@@ -318,7 +301,6 @@ no_colors
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -349,7 +331,6 @@ no_colors
     </tbody>
 </table>
 </div>
-
 
 
 
@@ -369,7 +350,6 @@ cones.sort('Price')
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -400,7 +380,6 @@ cones.sort('Price')
     </tbody>
 </table>
 </div>
-
 
 
 
@@ -418,7 +397,6 @@ cones.sort('Price', descending=True)
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -449,7 +427,6 @@ cones.sort('Price', descending=True)
     </tbody>
 </table>
 </div>
-
 
 
 
@@ -470,7 +447,6 @@ cones.where('Flavor', 'chocolate')
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -495,7 +471,6 @@ cones.where('Flavor', 'chocolate')
 
 
 
-
 The arguments, separated by a comma, are the label of the column and the value we are looking for in that column. The `where` method can also be used when the condition that the rows must satisfy is more complicated. In those situations the call will be a little more complicated as well.
 
 It is important to provide the value exactly. For example, if we specify `Chocolate` instead of `chocolate`, then `where` correctly finds no rows where the flavor is `Chocolate`.
@@ -510,7 +485,6 @@ cones.where('Flavor', 'Chocolate')
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -523,7 +497,6 @@ cones.where('Flavor', 'Chocolate')
     </tbody>
 </table>
 </div>
-
 
 
 
@@ -556,7 +529,6 @@ nba
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -603,7 +575,6 @@ nba
 
 
 
-
 Fans of Stephen Curry can find his row by using `where`.
 
 
@@ -616,7 +587,6 @@ nba.where('PLAYER', 'Stephen Curry')
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -635,7 +605,6 @@ nba.where('PLAYER', 'Stephen Curry')
 
 
 
-
 We can also create a new table called `warriors` consisting of just the data for the Golden State Warriors.
 
 
@@ -649,7 +618,6 @@ warriors
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -696,7 +664,6 @@ warriors
 
 
 
-
 By default, the first 10 lines of a table are displayed. You can use `show` to display more or fewer. To display the entire table, use `show` with no argument in the parentheses.
 
 
@@ -707,7 +674,6 @@ warriors.show()
 ```
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -764,7 +730,6 @@ warriors.show()
 </div>
 
 
-
 The `nba` table is sorted in alphabetical order of the team names. To see how the players were paid in 2015-2016, it is useful to sort the data by salary. Remember that by default, the sorting is in increasing order.
 
 
@@ -777,7 +742,6 @@ nba.sort('SALARY')
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -824,7 +788,6 @@ nba.sort('SALARY')
 
 
 
-
 These figures are somewhat difficult to compare as some of these players changed teams during the season and received salaries from more than one team; only the salary from the last team appears in the table.  
 
 The CNN report is about the other end of the salary scale – the players who are among the highest paid in the world. To identify these players we can sort in descending order of salary and look at the top few rows.
@@ -839,7 +802,6 @@ nba.sort('SALARY', descending=True)
 
 
 
-    
 
 <div markdown="0">
 <table border="1" class="dataframe">
@@ -883,7 +845,6 @@ nba.sort('SALARY', descending=True)
 </table>
 <p>... (407 rows omitted)</p>
 </div>
-
 
 
 
