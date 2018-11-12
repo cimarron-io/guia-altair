@@ -35,8 +35,8 @@ alt.Chart(cars).mark_circle(size=60).encode(
     color='Origin',
     tooltip=['Name', 'Origin', 'Horsepower', 'Miles_per_Gallon']
 ).properties(
-    height = 300,
-    width = 400,
+    height = 350,
+    width = 500,
 ).interactive()
 ```
 
@@ -67,7 +67,7 @@ alt.Chart(data).mark_bar().encode(
     y='b'
 ).properties(
     height = 400,
-    width = 300,
+    width = 500,
 )
 ```
 
@@ -103,8 +103,8 @@ alt.Chart(data).mark_rect().encode(
     y='y:O',
     color='z:Q'
 ).properties(
-    height = 300,
-    width = 300
+    height = 500,
+    width = 500
 )
 ```
 
