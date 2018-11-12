@@ -29,11 +29,11 @@
   url: /section-01/gramatica-de-graficos
   sections:
   - title: Ventajas
-    url: /section-01/chapters/ventajas
+    url: /section-01/chapters/01-ventajas
   - title: Desventajas
-    url: /section-01/chapters/desventajas
+    url: /section-01/chapters/02-desventajas
   - title: Los Clásicos
-    url: /section-01/chapters/los-clasicos
+    url: /section-01/chapters/03-los-clasicos
 #     subsections:
 #     - title: Subsection Demo 1
 #       url: /01/3/subsection/subsections
