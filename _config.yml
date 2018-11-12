@@ -30,7 +30,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 # Textbook settings
 content_folder_name       : "content"  # The folder where your raw content (notebooks/markdown files) are located
-textbook_logo             : images/logo/logo.png  # A logo to be displayed at the top of your textbook sidebar
+textbook_logo             : images/logo/cimarron-logo.png  # A logo to be displayed at the top of your textbook sidebar
 hide_cell_text            : "# HIDDEN"  # When building the textbook, any cells with this text inside will be hidden in the output markdown
 hide_code_text            : "# NO CODE"  # When building the textbook, any cells with this text inside will have *only* their output shown (no code)
 css_url                   : "/assets/css" # Path to static CSS files
