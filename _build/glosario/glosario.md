@@ -6,8 +6,8 @@ prev_page:
   url: /intro
   title: 'Introducción'
 next_page:
-  url: /01/what-is-data-science
-  title: 'Data Science'
+  url: /section-01/gramatica-de-graficos
+  title: '¿Qué es la "Grámatica de Gráficos"?'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Glosario
