@@ -23,9 +23,9 @@
 
 
 - divider: true
-- header: Demo textbook
+- header: Visualización de Datos con `Altair` 
 
-- title: ¿qué es la "grámatica de gráficos"?
+- title: ¿Qué es la "Grámatica de Gráficos"?
   url: /01/gramatica-de-graficos
   sections:
   - title: Introduction
