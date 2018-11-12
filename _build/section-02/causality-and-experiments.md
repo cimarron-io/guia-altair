@@ -3,7 +3,7 @@ redirect_from:
   - "/section-02/causality-and-experiments"
 title: 'Causality and Experiments'
 prev_page:
-  url: /section-01/chapters/los-clasicos
+  url: /section-01/chapters/03-los-clasicos
   title: 'Los Clásicos'
 next_page:
   url: /section-02/1/observation-and-visualization-john-snow-and-the-broad-street-pump

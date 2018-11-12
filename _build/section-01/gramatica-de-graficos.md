@@ -6,7 +6,7 @@ prev_page:
   url: /glosario/glosario
   title: 'Glosario'
 next_page:
-  url: /section-01/chapters/ventajas
+  url: /section-01/chapters/01-ventajas
   title: 'Ventajas'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
