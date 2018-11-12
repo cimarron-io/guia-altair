@@ -26,52 +26,52 @@
 - header: Visualización de Datos con Altair 
 
 - title: ¿Qué es la "Grámatica de Gráficos"?
-  url: /01/gramatica-de-graficos
+  url: /section-01/gramatica-de-graficos
   sections:
-  - title: Introduction
-    url: /01/1/intro
-  - title: Why Data Science?
-    url: /01/2/why-data-science
-  - title: Plotting the Classics
-    url: /01/3/Plotting_the_Classics
-    subsections:
-    - title: Subsection Demo 1
-      url: /01/3/subsection/subsections
-    - title: Subsection Demo 2
-      url: /01/3/subsection/subsectiontwo
+  - title: Ventajas
+    url: /section-01/chapters/ventajas
+  - title: Desventajas
+    url: /section-01/chapters/desventajas
+  - title: Los Clásicos
+    url: /section-01/chapters/los-clasicos
+#     subsections:
+#     - title: Subsection Demo 1
+#       url: /01/3/subsection/subsections
+#     - title: Subsection Demo 2
+#       url: /01/3/subsection/subsectiontwo
 
 - title: Causality and Experiments
-  url: /02/causality-and-experiments
+  url: /section-02/causality-and-experiments
   sections:
   - title: John Snow and the Broad Street Pump
-    url: /02/1/observation-and-visualization-john-snow-and-the-broad-street-pump
+    url: /section-02/1/observation-and-visualization-john-snow-and-the-broad-street-pump
   - title: "Snow\u2019s \u201CGrand Experiment\u201D"
-    url: /02/2/snow-s-grand-experiment
+    url: /section-02/2/snow-s-grand-experiment
   - title: Establishing Causality
-    url: /02/3/establishing-causality
+    url: /section-02/3/establishing-causality
   - title: Randomization
-    url: /02/4/randomization
+    url: /section-02/4/randomization
   - title: Endnote
-    url: /02/5/endnote
+    url: /section-02/5/endnote
 
 - title: Programming in Python
-  url: /03/programming-in-python
+  url: /section-03/programming-in-python
   sections:
   - title: Expressions
-    url: /03/1/Expressions
+    url: /section-03/1/Expressions
   - title: Names
-    url: /03/2/Names
+    url: /section-03/2/Names
   - title: Call Expressions
-    url: /03/3/Calls
+    url: /section-03/3/Calls
   - title: Introduction to Tables
-    url: /03/4/Introduction_to_Tables
+    url: /section-03/4/Introduction_to_Tables
 
 - title: Data Types
-  url: /04/Types
+  url: /section-04/Types
   sections:
   - title: Numbers
-    url: /04/1/Numbers
+    url: /section-04/1/Numbers
   - title: Strings
-    url: /04/2/Strings
+    url: /section-04/2/Strings
   - title: Comparisons
-    url: /04/3/Comparison
+    url: /section-04/3/Comparison
