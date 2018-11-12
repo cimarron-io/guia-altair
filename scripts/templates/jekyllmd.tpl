@@ -46,8 +46,6 @@
 {% endblock data_html %}
 
 
-{% set altair = {'vis_number': 0} %}
-
 {% block header %}
   <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
@@ -57,12 +55,11 @@
 
 {%- block data_priority scoped -%}
 {% if 'application/vnd.vegalite.v2+json' in output.data %}
-    {% if altair.update({'vis_number': altair.vis_number+1}) %}{% endif %}
-    <div id="vis{{cell['execution_count']}}_{{ altair.vis_number }}"></div>
+    <div id="vis{{cell['execution_count']}}"></div>
     <script type="text/javascript">
         var spec = {{ output.data['application/vnd.vegalite.v2+json'] }};
         var opt = {"renderer": "canvas", "actions": false};
-        vegaEmbed("#vis{{cell['execution_count']}}_{{ altair.vis_number }}", spec, opt);
+        vegaEmbed("#vis{{cell['execution_count']}}", spec, opt);
     </script>
 {% else %}
     {{super()}}
