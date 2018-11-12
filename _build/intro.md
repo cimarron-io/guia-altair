@@ -20,11 +20,17 @@ En este taller exploraremos como crear varios tipos de visualizaciones y como pe
 
 ## Instalación
 pip install 
+
 conda install
+
 etc etc
+
 jupyter lab 
+
 jupyter notebooks
+
 google colab
+
 
 
 ## Comenzando
