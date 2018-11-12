@@ -12,6 +12,11 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
+  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+  
+
 ## 3.2 Names
 Names are given to values in Python using an *assignment* statement. In an assignment, a name is followed by `=`, which is followed by any expression. The value of the expression to the right of `=` is *assigned* to the name. Once a name has a value assigned to it, the value will be substituted for that name in future expressions.
 
@@ -27,11 +32,13 @@ a + b
 
 
 
+    
 
 {:.output_data_text}
 ```
 30
 ```
+
 
 
 
@@ -49,11 +56,13 @@ half
 
 
 
+    
 
 {:.output_data_text}
 ```
 0.5
 ```
+
 
 
 
@@ -70,11 +79,13 @@ half
 
 
 
+    
 
 {:.output_data_text}
 ```
 0.5
 ```
+
 
 
 
@@ -96,10 +107,12 @@ sales_tax
 
 
 
+    
 
 {:.output_data_text}
 ```
 0.475
 ```
+
 
 
