@@ -12,11 +12,6 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
-  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
-  
-
 Much of the world's data is text, and a piece of text represented in a computer is called a *string*. A string can represent a word, a sentence, or even the contents of every book in a library. Since text can include numbers (like this: 5) or truth values (True), a string can also describe those things.
 
 The meaning of an expression depends both upon its structure and the types of values that are being combined. So, for instance, adding two strings together produces another string. This expression is still an addition expression, but it is combining a different type of value.
@@ -31,13 +26,11 @@ The meaning of an expression depends both upon its structure and the types of va
 
 
 
-    
 
 {:.output_data_text}
 ```
 'datascience'
 ```
-
 
 
 
@@ -53,13 +46,11 @@ Addition is completely literal; it combines these two strings together without r
 
 
 
-    
 
 {:.output_data_text}
 ```
 'data science'
 ```
-
 
 
 
@@ -75,13 +66,11 @@ Single and double quotes can both be used to create strings: `'hi'` and `"hi"` a
 
 
 
-    
 
 {:.output_data_text}
 ```
 "This won't work with a single-quoted string!"
 ```
-
 
 
 
@@ -99,12 +88,10 @@ The `str` function returns a string representation of any value. Using this func
 
 
 
-    
 
 {:.output_data_text}
 ```
 "That's 2 True"
 ```
-
 
 

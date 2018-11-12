@@ -12,11 +12,6 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
-  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
-  
-
 Computers are designed to perform numerical calculations, but there are some important details about working with numbers that every programmer working with quantitative data should know. Python (and most other programming languages) distinguishes between two different types of numbers:
 
 * Integers are called `int` values in the Python language. They can only represent whole numbers (negative, zero, or positive) that don't have a fractional component
@@ -35,13 +30,11 @@ The type of a number is evident from the way it is displayed: `int` values have 
 
 
 
-    
 
 {:.output_data_text}
 ```
 2
 ```
-
 
 
 
@@ -55,13 +48,11 @@ The type of a number is evident from the way it is displayed: `int` values have 
 
 
 
-    
 
 {:.output_data_text}
 ```
 4
 ```
-
 
 
 
@@ -75,13 +66,11 @@ The type of a number is evident from the way it is displayed: `int` values have 
 
 
 
-    
 
 {:.output_data_text}
 ```
 -1234567890000000000
 ```
-
 
 
 
@@ -96,13 +85,11 @@ The type of a number is evident from the way it is displayed: `int` values have 
 
 
 
-    
 
 {:.output_data_text}
 ```
 1.2
 ```
-
 
 
 
@@ -116,13 +103,11 @@ The type of a number is evident from the way it is displayed: `int` values have 
 
 
 
-    
 
 {:.output_data_text}
 ```
 3.0
 ```
-
 
 
 
@@ -138,13 +123,11 @@ When a `float` value is combined with an `int` value using some arithmetic opera
 
 
 
-    
 
 {:.output_data_text}
 ```
 3.5
 ```
-
 
 
 
@@ -158,13 +141,11 @@ When a `float` value is combined with an `int` value using some arithmetic opera
 
 
 
-    
 
 {:.output_data_text}
 ```
 3.0
 ```
-
 
 
 
@@ -178,13 +159,11 @@ When a `float` value is combined with an `int` value using some arithmetic opera
 
 
 
-    
 
 {:.output_data_text}
 ```
 -1.23456789e+19
 ```
-
 
 
 
@@ -200,13 +179,11 @@ type(3)
 
 
 
-    
 
 {:.output_data_text}
 ```
 int
 ```
-
 
 
 
@@ -220,13 +197,11 @@ type(3 / 1)
 
 
 
-    
 
 {:.output_data_text}
 ```
 float
 ```
-
 
 
 
@@ -243,13 +218,11 @@ type(x) # The type of x is an int, not a name
 
 
 
-    
 
 {:.output_data_text}
 ```
 int
 ```
-
 
 
 
@@ -263,13 +236,11 @@ type(x + 2.5)
 
 
 
-    
 
 {:.output_data_text}
 ```
 float
 ```
-
 
 
 
@@ -293,13 +264,11 @@ The first limit can be observed in two ways. If the result of a computation is a
 
 
 
-    
 
 {:.output_data_text}
 ```
 2e+307
 ```
-
 
 
 
@@ -313,13 +282,11 @@ The first limit can be observed in two ways. If the result of a computation is a
 
 
 
-    
 
 {:.output_data_text}
 ```
 inf
 ```
-
 
 
 
@@ -333,13 +300,11 @@ inf
 
 
 
-    
 
 {:.output_data_text}
 ```
 2e-323
 ```
-
 
 
 
@@ -353,13 +318,11 @@ inf
 
 
 
-    
 
 {:.output_data_text}
 ```
 0.0
 ```
-
 
 
 
@@ -375,13 +338,11 @@ The second limit can be observed by an expression that involves numbers with mor
 
 
 
-    
 
 {:.output_data_text}
 ```
 0.0
 ```
-
 
 
 
@@ -397,13 +358,11 @@ The third limit can be observed when taking the difference between two expressio
 
 
 
-    
 
 {:.output_data_text}
 ```
 1.4142135623730951
 ```
-
 
 
 
@@ -417,13 +376,11 @@ The third limit can be observed when taking the difference between two expressio
 
 
 
-    
 
 {:.output_data_text}
 ```
 2.0000000000000004
 ```
-
 
 
 
@@ -437,13 +394,11 @@ The third limit can be observed when taking the difference between two expressio
 
 
 
-    
 
 {:.output_data_text}
 ```
 4.440892098500626e-16
 ```
-
 
 
 
