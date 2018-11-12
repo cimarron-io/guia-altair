@@ -12,6 +12,11 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
+  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+  
+
 # 3.1 Expressions
 Programming languages are much simpler than human languages. Nonetheless, there are some rules of grammar to learn in any language, and that is where we will begin. In this text, we will use the [Python](https://www.python.org/) programming language. Learning the grammar rules is essential, and the same rules used in the most basic programs are also central to more sophisticated programs.
 
@@ -27,11 +32,13 @@ Programs are made up of *expressions*, which describe to the computer how to com
 
 
 
+    
 
 {:.output_data_text}
 ```
 12
 ```
+
 
 
 
@@ -68,11 +75,13 @@ Small changes to an expression can change its meaning entirely. Below, the space
 
 
 
+    
 
 {:.output_data_text}
 ```
 81
 ```
+
 
 
 
@@ -99,11 +108,13 @@ Python expressions obey the same familiar rules of *precedence* as in algebra: m
 
 
 
+    
 
 {:.output_data_text}
 ```
 17.555555555555557
 ```
+
 
 
 
@@ -117,11 +128,13 @@ Python expressions obey the same familiar rules of *precedence* as in algebra: m
 
 
 
+    
 
 {:.output_data_text}
 ```
 2017.0
 ```
+
 
 
 

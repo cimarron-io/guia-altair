@@ -57,6 +57,11 @@
   <!-- Load custom website scripts -->
   <script src="{{ site.js_url | relative_url }}/scripts.js" async></script>
 
+  <!-- display altair -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+    
   <!-- Update interact links w/ REST param, is defined in includes so we can use templates -->
   {% include interact-update.html %}
 </head>

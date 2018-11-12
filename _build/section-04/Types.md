@@ -12,6 +12,11 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
+  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+  
+
 Every value has a type, and the built-in `type` function returns the type of the result of any expression.
 
 One type we have encountered already is a built-in function. Python indicates that the type is a `builtin_function_or_method`; the distinction between a *function* and a *method* is not important at this stage.
@@ -26,11 +31,13 @@ type(abs)
 
 
 
+    
 
 {:.output_data_text}
 ```
 builtin_function_or_method
 ```
+
 
 
 
