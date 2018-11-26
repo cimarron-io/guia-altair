@@ -103,4 +103,4 @@ alt.Chart(iris).mark_point().encode(
 ```
 
 #### Google Colab
-Si quieres utilizar `altair` en un  __Google Colab Notebook__ no necesitas instalar nada. Sólo crea un nuevo __notebook__ y ponte a visualizar: https:colab.research.google.com/
+Si quieres utilizar `altair` en un  __Google Colab Notebook__ no necesitas instalar nada. Sólo [crea un nuevo __notebook__ y ponte a visualizar](https:colab.research.google.com/)
