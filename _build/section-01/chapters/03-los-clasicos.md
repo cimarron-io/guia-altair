@@ -14,9 +14,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 # Los Clásicos
 
-Lorem ipsum dolor amet jean shorts palo santo chia artisan asymmetrical synth pop-up butcher post-ironic tote bag direct trade. Authentic sustainable irony XOXO lumbersexual photo booth iPhone lomo echo park trust fund godard. 3 wolf moon swag pop-up, kickstarter pickled kale chips post-ironic. Truffaut vape tacos air plant thundercats edison bulb, retro pinterest hammock.
-
-Tbh iPhone 90's enamel pin offal taxidermy, church-key echo park 8-bit asymmetrical health goth. Swag master cleanse mumblecore woke kitsch normcore. Meggings la croix green juice, authentic chia vape cold-pressed poutine biodiesel lomo next level vegan put a bird on it. Tacos affogato blog chartreuse hammock, typewriter meditation hot chicken taiyaki succulents waistcoat cronut green juice lyft. Cold-pressed viral +1 semiotics meditation, chambray biodiesel forage letterpress wolf umami cloud bread YOLO XOXO. Hot chicken ramps freegan next level live-edge marfa stumptown butcher lo-fi edison bulb bespoke.
+Aquí tenemos unos ejemplos de gráficos comunes y el código correspondiente en `altair`
 
 #### _Gráfico de dispersión_ (aka _scatterplot_)
 
@@ -27,17 +25,14 @@ Tbh iPhone 90's enamel pin offal taxidermy, church-key echo park 8-bit asymmetri
 import altair as alt
 from vega_datasets import data
 
-cars = data.cars()
+iris = data.iris()
 
-alt.Chart(cars).mark_circle(size=60).encode(
-    x='Horsepower',
-    y='Miles_per_Gallon',
-    color='Origin',
-    tooltip=['Name', 'Origin', 'Horsepower', 'Miles_per_Gallon']
-).properties(
-    height = 350,
-    width = 500,
-).interactive()
+alt.Chart(iris).mark_point().encode(
+    x='petalWidth',
+    y='petalLength',
+    color='species',
+    tooltip='species'
+)
 ```
 
 
@@ -141,5 +136,39 @@ alt.Chart(movies).mark_bar().encode(
 
 
 ![png](../../images/section-01/chapters/03-los-clasicos_8_0.png)
+
+
+
+#### _Mapa_
+
+
+
+{:.input_area}
+```python
+import altair as alt
+from vega_datasets import data
+
+counties = alt.topo_feature(data.us_10m.url, 'counties')
+unemp_data = data.unemployment.url
+
+
+alt.Chart(counties).mark_geoshape().encode(
+    color='rate:Q'
+).transform_lookup(
+    lookup='id',
+    from_=alt.LookupData(unemp_data, 'id', ['rate'])
+).project(
+    type='albersUsa'
+).properties(
+    width=500,
+    height=300
+)
+```
+
+
+
+
+
+![png](../../images/section-01/chapters/03-los-clasicos_10_0.png)
 
 

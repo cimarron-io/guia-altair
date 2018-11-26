@@ -13,12 +13,108 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 Ventajas
 ========
 
-Lorem ipsum dolor amet tote bag pop-up fixie 8-bit raw denim marfa. Kinfolk ennui irony brunch, succulents DIY 8-bit gluten-free photo booth subway tile trust fund next level street art hexagon. Activated charcoal literally meditation glossier, selfies kogi vexillologist offal hoodie butcher snackwave chicharrones bitters. Chambray microdosing roof party scenester selvage kitsch. Small batch celiac banjo, intelligentsia vegan flexitarian taxidermy austin next level cornhole cloud bread subway tile biodiesel polaroid.
+La ventaja más obvia de `altair` es la facilidad con la que se puede crear un gráfico interactivo. 
 
-Gochujang chicharrones truffaut, small batch cliche dreamcatcher flexitarian. Franzen shaman hot chicken authentic fanny pack tousled. Mumblecore quinoa iceland edison bulb vinyl meh ennui butcher four dollar toast air plant ugh. Kogi literally next level viral, cloud bread pour-over lyft food truck shoreditch asymmetrical mixtape tumeric biodiesel street art.
+> _La idea clave es que está declarando enlaces entre columnas de datos y canales de codificación visual, como el eje x, el eje y, el color, etc. El resto de los detalles del gráfico se manejan automáticamente. Sobre esta idea base de un trazado de gráficos declarativo, se puede crear una sorprendente gama de gráficos y visualizaciones, de simples a sofisticados, utilizando una gramática relativamente concisa._
 
-Yr photo booth post-ironic, mixtape pug brooklyn offal woke tumeric butcher lomo. XOXO direct trade farm-to-table, sriracha roof party pork belly air plant hexagon intelligentsia authentic waistcoat green juice yr la croix. Truffaut PBR&B hashtag, chicharrones williamsburg everyday carry heirloom readymade craft beer ramps beard try-hard. Cornhole yuccie iceland blue bottle gentrify 90's. Selfies heirloom four dollar toast pabst. La croix chillwave vice keytar fam truffaut.
+En realidad `altair` traduce `python` a `Vega-lite` el cual utiliza JSON para especificar los elementos de un gráfico. Esto significa que con un poco de código en `python` puedes crear gráficos que puedes compartir fácilmente en HTML o JavaScript lo cual los hace mucho más faciles de compartir en la red. 
 
-Marfa roof party hoodie, next level shabby chic XOXO tote bag brunch hammock pour-over migas offal hell of street art. Paleo poke brunch scenester four dollar toast waistcoat salvia four loko fingerstache gochujang kinfolk. Hot chicken 8-bit yuccie humblebrag cornhole, pour-over pabst pickled cloud bread vape sriracha farm-to-table. Edison bulb selfies tumblr dreamcatcher. Occupy hammock pickled af, +1 lo-fi tumeric copper mug.
+Por ejemplo, supongamos que escribes el siguiente código:
 
-Banjo scenester 3 wolf moon knausgaard, pok pok offal shaman iPhone jean shorts. Photo booth keytar paleo glossier aesthetic man braid bushwick skateboard typewriter kitsch master cleanse flexitarian taxidermy. Meditation glossier hot chicken umami irony tumblr synth occupy freegan. Banjo actually scenester cold-pressed next level brunch enamel pin slow-carb food truck post-ironic bitters.
+```python
+import altair as alt
+from vega_datasets import data
+
+grafico = alt.Chart(data.cars.url).mark_point().encode(
+    x='Horsepower:Q',
+    y='Miles_per_Gallon:Q',
+    color='Origin:N'
+)
+```
+
+con el simple método
+```python
+grafico.save("grafico.json")
+```
+ya puedes tener tu gráfico en formato JSON.
+```json
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "config": {
+    "view": {
+      "height": 300,
+      "width": 400
+    }
+  },
+  "data": {
+    "url": "https://vega.github.io/vega-datasets/data/cars.json"
+  },
+  "encoding": {
+    "color": {
+      "field": "Origin",
+      "type": "nominal"
+    },
+    "x": {
+      "field": "Horsepower",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "Miles_per_Gallon",
+      "type": "quantitative"
+    }
+  },
+  "mark": "point"
+}
+```
+
+Si lo quieres en HTML para publicarlo en tu sitio web
+
+```python
+grafico.save("grafico.html")
+```
+
+y tienes el archivo `grafico.html` que se ve así
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script type="text/javascript">
+    var spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+      "config": {
+        "view": {
+          "height": 300,
+          "width": 400
+        }
+      },
+      "data": {
+        "url": "https://vega.github.io/vega-datasets/data/cars.json"
+      },
+      "encoding": {
+        "color": {
+          "field": "Origin",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "Horsepower",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Miles_per_Gallon",
+          "type": "quantitative"
+        }
+      },
+      "mark": "point"
+    };
+    var opt = {"renderer": "canvas", "actions": false};
+    vegaEmbed("#vis", spec, opt);
+  </script>
+</body>
+</html>
+```
