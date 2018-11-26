@@ -117,3 +117,4 @@ scripts/tests/site/_build
 .profile
 .bash_logout
 .conda/
+.local/
