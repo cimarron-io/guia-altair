@@ -1,4 +1,3 @@
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -72,9 +71,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-.ipynb_checkpoints/
-.jupyter
-.jupyter/
+
 # pyenv
 .python-version
 
@@ -112,8 +109,3 @@ _site/
 
 # Test builds
 scripts/tests/site/_build
-
-# other random stuff i found
-.profile
-.bash_logout
-.conda/
