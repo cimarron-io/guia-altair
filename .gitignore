@@ -118,3 +118,4 @@ scripts/tests/site/_build
 .bash_logout
 .conda/
 .local/
+.bashrc
