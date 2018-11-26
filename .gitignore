@@ -117,5 +117,6 @@ scripts/tests/site/_build
 .profile
 .bash_logout
 .conda/
+.gitconfig
 .local/
 .bashrc
