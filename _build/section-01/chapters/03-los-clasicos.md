@@ -7,8 +7,8 @@ prev_page:
   url: /section-01/chapters/02-desventajas
   title: 'Desventajas'
 next_page:
-  url: /section-02/causality-and-experiments
-  title: 'Causality and Experiments'
+  url: /section-02/anatomia-de-un-grafico
+  title: 'Anatomía de un Gráfico'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

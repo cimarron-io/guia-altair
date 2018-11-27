@@ -20,22 +20,22 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ## Instalación
 [Instrucciones completas en la documentación de Altair](https://altair-viz.github.io/getting_started/installation.html)
 
-#### Jupyter Lab
-La mejor manera de trabajar con `altair` es en `Jupyter Lab`. Se recomienda crear un nuevo entorno virtual (puedes utilizar cualquier librería que te guste `pipenv`, `conda`, `virtualenv`).
+### Jupyter Lab
+La mejor manera de trabajar con `altair` es en `Jupyter Lab`. Se recomienda crear un nuevo entorno virtual (puedes utilizar cualquier biblioteca que te guste `pipenv`, `conda`, `virtualenv`).
 Ya que hayas creado tu entorno puedes instalar `altair` y `jupyter lab` fácilmente con `pip` o `conda`.
 
-##### Conda
+#### Conda
 ```sh
 conda install -c conda-forge altair vega_datasets jupyterlab
 ```
-##### Pip
+#### Pip
 ```sh
 pip install -U altair vega_datasets jupyterlab
 ```
 
-Notarás que estas instalando 3 librerías, `vega_datasets` contiene varios conjuntos de datos (_datasets_) con los que puedes recrear los ejemplos de la galería de `altair` [(en su documentación online)](https://altair-viz.github.io/gallery/index.html)
+Notarás que estas instalando 3 biblioteca, `vega_datasets` contiene varios conjuntos de datos (_datasets_) con los que puedes recrear los ejemplos de la galería de `altair` [(en su documentación online)](https://altair-viz.github.io/gallery/index.html)
 
-__NOTA:__ `-c conda-forge` solo le esta indicando a `conda` que utilize el canal _conda-forge_ para instalar las librerías. Más sobre eso en la [documentación](https://conda.io/docs/user-guide/tasks/manage-channels.html) de `conda` (esta en inglés).
+__NOTA:__ `-c conda-forge` solo le esta indicando a `conda` que utilize el canal _conda-forge_ para instalar las bibliotecas. Más sobre eso en la [documentación](https://conda.io/docs/user-guide/tasks/manage-channels.html) de `conda` (esta en inglés).
 
 ya que hayas instalado lo necesario puedes ejecutar lo siguiente desde tu línea de comando:
 ```sh
@@ -64,18 +64,18 @@ alt.Chart(iris).mark_point().encode(
 
 
 
-![png](intro_4_0.png)
+![png](/home/jovyan/_build/intro_4_0.png)
 
 
 
-#### Jupyter Notebook
-Si prefieres trabajar en __jupyter notebooks__ (y no en el __lab__) necesitarás instalar también la librería `vega`, de igual manera puedes hacerlo con `conda` o `pip`:
+### Jupyter Notebook
+Si prefieres trabajar en __jupyter notebooks__ (y no en el __lab__) necesitarás instalar también la biblioteca `vega`, de igual manera puedes hacerlo con `conda` o `pip`:
 
-##### Conda
+#### Conda
 ```sh
 conda install -c conda-forge altair vega_datasets notebook vega
 ```
-##### Pip
+#### Pip
 ```sh
 pip install -U altair vega_datasets notebook vega
 ```
@@ -102,5 +102,5 @@ alt.Chart(iris).mark_point().encode(
 )
 ```
 
-#### Google Colab
+### Google Colab
 Si quieres utilizar `altair` en un  __Google Colab Notebook__ no necesitas instalar nada. Sólo [crea un nuevo __notebook__ y ponte a visualizar](https:colab.research.google.com/)

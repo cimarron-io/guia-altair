@@ -40,8 +40,8 @@
 #     - title: Subsection Demo 2
 #       url: /01/3/subsection/subsectiontwo
 
-- title: Causality and Experiments
-  url: /section-02/causality-and-experiments
+- title: Anatomía de un Gráfico
+  url: /section-02/anatomia-de-un-grafico
   sections:
   - title: John Snow and the Broad Street Pump
     url: /section-02/1/observation-and-visualization-john-snow-and-the-broad-street-pump

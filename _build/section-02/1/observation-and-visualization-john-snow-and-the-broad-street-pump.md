@@ -3,8 +3,8 @@ redirect_from:
   - "/section-02/1/observation-and-visualization-john-snow-and-the-broad-street-pump"
 title: 'John Snow and the Broad Street Pump'
 prev_page:
-  url: /section-02/causality-and-experiments
-  title: 'Causality and Experiments'
+  url: /section-02/anatomia-de-un-grafico
+  title: 'Anatomía de un Gráfico'
 next_page:
   url: /section-02/2/snow-s-grand-experiment
   title: 'Snow’s “Grand Experiment”'
