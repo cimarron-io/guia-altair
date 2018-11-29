@@ -47,4 +47,4 @@ Un gráfico es una representación visual de tus datos. Es esencial conectar tu 
 ***
 
 
-![anatomia de un grafico](../images/chapter-02/Anatomía_de_un_Gráfico.png)
+![anatomia de un grafico](../images/chapter-02/anatomia-de-un-grafico.png)
