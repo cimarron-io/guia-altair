@@ -16,11 +16,6 @@
   url: /intro
   not_numbered: true
 
-- title: Glosario
-  url: /glosario/glosario
-  not_numbered: true
-
-
 
 - divider: true
 - header: índice 
@@ -75,3 +70,9 @@
     url: /section-04/2/Strings
   - title: Comparisons
     url: /section-04/3/Comparison
+
+- divider: true
+
+- title: Glosario
+  url: /glosario/glosario
+  not_numbered: true
