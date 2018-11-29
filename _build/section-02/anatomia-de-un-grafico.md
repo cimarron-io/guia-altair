@@ -18,7 +18,9 @@ Cada gráfico en `altair` es compuesto al describir un mínimo de tres elementos
 * Datos
 * Marcadores
 * Codificaciones
+
 ***
+
 ## Datos
 `Altair` acepta __datasets__ de 3 maneras:
 * un `DataFrame` de `pandas`

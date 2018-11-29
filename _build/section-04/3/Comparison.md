@@ -7,8 +7,8 @@ prev_page:
   url: /section-04/2/Strings
   title: 'Strings'
 next_page:
-  url: 
-  title: ''
+  url: /glosario/glosario
+  title: 'Glosario'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

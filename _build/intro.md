@@ -8,8 +8,8 @@ prev_page:
   url: 
   title: ''
 next_page:
-  url: /glosario/glosario
-  title: 'Glosario'
+  url: /section-01/gramatica-de-graficos
+  title: '¿Qué es la "Grámatica de Gráficos"?'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
