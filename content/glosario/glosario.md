@@ -61,6 +61,7 @@ La columna de sinónimos está aquí sólo de referencia, son palabras aceptadas
 |  Inglés 	| Usar esta columna en la traducción | (sinónimos) |
 |---	      |---	  |--- |
 | **browser**| Navegador de archivos | |
+| **Chart**  	| Gráfico o diagrama  	| |
 | **cell** <br> (de un **notebook**) | celda | |
 | **click**  	|  clic  	| |
 | **command line**  	|  la línea de comandos  	| |
@@ -81,13 +82,7 @@ La columna de sinónimos está aquí sólo de referencia, son palabras aceptadas
 | **spreadsheet**  	|  planilla de cálculo  | |
 | **shell**  	       |  la terminal  | la linea de comandos |
 | **string**  	|  secuencia de caracteres -sólo se traduce si no es un tipo de datos  | |
-| **self-contained** project| proyecto autónomo ||
-| **tab completion**  | autocompletar	|autocompletado con el tabulador |
-| **tip** / **hint** | sugerencia | consejo, pista|
-| **trash bin**  | papelera de reciclaje	| |
-| **version control**  	| control de versiones|  |
-| **wild card**  | comodín  | caracter especial |
-| **working directory** 	| directorio de trabajo | carpeta de trabajo 	|
+
 
 ## Fonología del código - cómo leerlo en voz alta
 
