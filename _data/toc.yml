@@ -12,13 +12,15 @@
 # divider: true if this entry should just be rendered as a horizontal divider
 #   in the sidebar. All other values are ignored.
 
-- title: Introducción
+- title: Visualización de Datos con Altair
   url: /intro
   not_numbered: true
-
+- title: ¿Qué es Altair?
+  url: /que-es-altair
+  not_numbered: true
 
 - divider: true
-- header: índice 
+- header: Índice 
 
 - title: ¿Qué es la "Grámatica de Gráficos"?
   url: /section-01/gramatica-de-graficos
