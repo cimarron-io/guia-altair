@@ -3,11 +3,11 @@ redirect_from:
   - "/glosario/glosario"
 title: 'Glosario'
 prev_page:
-  url: /intro
-  title: 'Introducción'
+  url: /section-04/3/Comparison
+  title: 'Comparisons'
 next_page:
-  url: /section-01/gramatica-de-graficos
-  title: '¿Qué es la "Grámatica de Gráficos"?'
+  url: 
+  title: ''
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Glosario
