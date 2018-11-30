@@ -15,7 +15,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 # Gráfico de Área
 
 ***
-Un gráfico de área es similar a un gráfico de líneas pero se rellena con color el área debajo de cada línea. 
+Un gráfico de área es similar a un gráfico de líneas pero se sombrea el área entre cada línea y el eje inferior.
 
 Así es como se produce un gráfico de área en `altair`:
 

@@ -2,105 +2,47 @@
 redirect_from:
   - "/intro"
   - "/"
-interact_link: content/intro.ipynb
-title: 'Introducción'
+title: 'Visualización de Datos con Altair'
 prev_page:
   url: 
   title: ''
 next_page:
-  url: /section-01/gramatica-de-graficos
-  title: '¿Qué es la "Grámatica de Gráficos"?'
+  url: /que-es-altair
+  title: '¿Qué es Altair?'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
+![Marcha de Napoleón](images/napoleon.gif)
+<br>**Figura 1**: _Charles Joseph Minard: “Carte Figurative des pertes succesives en hommes de l’Armée Française dans la campagne de Russie 1812-1813”, Paris, 1869._
+# Introducción
 
-# Altair
-
-`Altair` utiliza lo que se conoce como “gramatica de gráficos”. El énfasis es en _describir_ la apariencia visual y el comportamiento interactivo de tu visualización. La simplicidad de `altair` (que proviene de utilizar `Vega` y `Vega-lite`) la vuelve una herramienta muy eficáz para explorar y presentar datos.
-
-## Instalación
-[Instrucciones completas en la documentación de Altair](https://altair-viz.github.io/getting_started/installation.html)
-
-### Jupyter Lab
-La mejor manera de trabajar con `altair` es en `Jupyter Lab`. Se recomienda crear un nuevo entorno virtual (puedes utilizar cualquier biblioteca que te guste `pipenv`, `conda`, `virtualenv`).
-Ya que hayas creado tu entorno puedes instalar `altair` y `jupyter lab` fácilmente con `pip` o `conda`.
-
-#### Conda
-```sh
-conda install -c conda-forge altair vega_datasets jupyterlab
-```
-#### Pip
-```sh
-pip install -U altair vega_datasets jupyterlab
-```
-
-Notarás que estas instalando 3 biblioteca, `vega_datasets` contiene varios conjuntos de datos (_datasets_) con los que puedes recrear los ejemplos de la galería de `altair` [(en su documentación online)](https://altair-viz.github.io/gallery/index.html)
-
-__NOTA:__ `-c conda-forge` solo le esta indicando a `conda` que utilize el canal _conda-forge_ para instalar las bibliotecas. Más sobre eso en la [documentación](https://conda.io/docs/user-guide/tasks/manage-channels.html) de `conda` (esta en inglés).
-
-ya que hayas instalado lo necesario puedes ejecutar lo siguiente desde tu línea de comando:
-```sh
-jupyter lab
-```
-
-Dentro del __lab__ puedes crear un __notebook__ nuevo y ejecutar el siguiente código para asegurar que todo este funcionando:
+>_Los gráficos de datos visualizan visualmente las cantidades medidas mediante el uso combinado de puntos, líneas, un sistema de coordenadas, números, símbolos, palabras, sombreado y color._<br>...<br>
+_Los gráficos de datos modernos pueden hacer mucho más que simplemente sustituir tablas estadísticas pequeñas. En el mejor de los casos, los gráficos son instrumentos para razonar sobre información cuantitativa. A menudo, la forma más efectiva de describir, explorar y resumir un conjunto de números, incluso un conjunto muy grande, es mirar las imágenes de esos números. Además, de todos los métodos para analizar y comunicar información estadística, los gráficos de datos bien diseñados son los más simples y, al mismo tiempo, los más potentes._ <br>
+> ###### Edward R. Tufte, *The Visual Display of Quantitative Information*, 2da Edición
 
 
+La visualización de datos efectiva es una habilidad técnica cada día más codiciada. No es sólo una herramienta útil para presentar resultados sino también para la exploración eficáz de datos. 
+Los gráficos bien diseñados son capaces de transferir una gran cantidad de información en poco tiempo. Toma por ejemplo la figuras 1. La figura 1, de Charles Joseph Minard, es una visualización de la marcha de Napoleón a Rusia. De izquierda a derecha puedes ver como la cantidad de soldados va disminuyendo (en dorado) conforme pasa el tiempo y se acercan a Rusia. En el panel inferior Minard también esta visualizando la temperatura del día. Minard esta representando 6 dimensiones de sus datos:
+* **cambio en la cantidad** de soldados
+* la **dirección** de el ejercito
+* locación en un plano bidimensional - (X, Y), o en este caso de locación geografica, **longitud** y **latitud**.
+* **temperatura**
+* tiempo / **fecha**
 
-{:.input_area}
-```python
-import altair as alt
-from vega_datasets import data
+Esta transferencia de información es casi instantánea algo que sería imposible leyendo una tabla de 6 columnas con la misma información en forma de números.
 
-iris = data.iris()
+![paris](images/paris.jpeg)
+<br>**Figura 2**: _Étienne-Jules Marey. Visualización del horarios de los trenes entre Lyon y París en 1885_
 
-alt.Chart(iris).mark_point().encode(
-    x='petalLength',
-    y='petalWidth',
-    color='species'
-)
-```
+La figura 2 muestra el horario de trenes entre las ciudades de París y Lyon en Francia en 1885. Es una visualización intuitiva, uno la lée casi sin pensar y puede darse cuenta que existe una distancia mayor de Dijon a Macon que de París a Monterre, claro si uno fuera a tomar ese tren. No sólo eso, uno se da cuenta que si toma el tren de las 11 en París, va a tener una parada de 30 minutos en Dijon ya que se llega a las 5:30PM pero se sale a las 6PM. Esto es claro en el abruto salto en la línea representando nuestro tren. Este calculo no es díficil de notar en un boleto, tal vez veríamos los horarios de llegada y salida de cada parada en nuestro recorrido pero la representación gráfica nos entrega esa información de una manera todavía más rápida y eficáz.
 
+*** 
 
+Este libro es un documento vivo sobre la visualización de datos en `python` y específicamente utilizando la biblioteca `altair`. Aprenderás un poco sobre _la grámatica de gráficos_ y sobre `pandas`, la biblioteca de análisis de datos más popular de `python`. También aprenderás a como visualizar tus datos utilizando `altair` y como compartirlos en la red, ya sea en tu blog, en el sitio de tu empresa, o en tus redes sociales. 
 
+En algunos capítulos observarás el botón __Interactuar__<br>
+<img src="images/interactuar.png" alt="Interactuar" height="120">
+<br> al hacerle clic a ese botón activarás un __JupyterHub__ en [mybinder.org](https://mybinder.org) en el cual podrás practicar los ejercicios sin necesidad de instalar nada. 
 
+¡La guía seguirá creciendo con el tiempo con más material y más ejercicios así que asegurate de regresar de vez en cuando a ver que hay de nuevo!
 
-![png](intro_4_0.png)
-
-
-
-### Jupyter Notebook
-Si prefieres trabajar en __jupyter notebooks__ (y no en el __lab__) necesitarás instalar también la biblioteca `vega`, de igual manera puedes hacerlo con `conda` o `pip`:
-
-#### Conda
-```sh
-conda install -c conda-forge altair vega_datasets notebook vega
-```
-#### Pip
-```sh
-pip install -U altair vega_datasets notebook vega
-```
-
-Ya instalado puedes ejecutar:
-```sh
-jupyter notebook
-```
-
-__NOTA:__ Si vas a utilizar `altair` en __jupyter notebook__ vas a tener que ejecutar `alt.renderers.enable('notebook')` para poder exhibir tus gráficos en el __notebook__.
-El mismo ejemplo de arriba sería:
-```python
-import altair as alt
-from vega_datasets import data
-
-alt.renderers.enable('notebook')
-
-iris = data.iris()
-
-alt.Chart(iris).mark_point().encode(
-    x='petalLength',
-    y='petalWidth',
-    color='species'
-)
-```
-
-### Google Colab
-Si quieres utilizar `altair` en un  __Google Colab Notebook__ no necesitas instalar nada. Sólo [crea un nuevo __notebook__ y ponte a visualizar](https:colab.research.google.com/)
+Si encuentras un error o tienes sugerencias o comentarios te invito a que abrás un __issue__ en el [repo de GitHub](https://github.com/cimarron-io/guia-altair/issues).

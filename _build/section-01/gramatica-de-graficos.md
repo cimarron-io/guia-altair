@@ -3,8 +3,8 @@ redirect_from:
   - "/section-01/gramatica-de-graficos"
 title: '¿Qué es la "Grámatica de Gráficos"?'
 prev_page:
-  url: /intro
-  title: 'Introducción'
+  url: /que-es-altair
+  title: '¿Qué es Altair?'
 next_page:
   url: /section-01/chapters/01-ventajas
   title: 'Ventajas'
