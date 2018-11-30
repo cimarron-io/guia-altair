@@ -64,7 +64,7 @@ alt.Chart(iris).mark_point().encode(
 
 
 
-![png](intro_4_0.png)
+![png](/home/jovyan/_build/intro_4_0.png)
 
 
 
