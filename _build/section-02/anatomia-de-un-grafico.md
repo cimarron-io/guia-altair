@@ -6,8 +6,8 @@ prev_page:
   url: /section-01/chapters/03-los-clasicos
   title: 'Los Clásicos'
 next_page:
-  url: /section-02/1/observation-and-visualization-john-snow-and-the-broad-street-pump
-  title: 'John Snow and the Broad Street Pump'
+  url: /section-02/1/grafico_de_barras
+  title: 'Gráfico de Barras'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 Anatomía de un Gráfico
@@ -55,8 +55,20 @@ El marcador en un gráfico es la representación visual de tus datos. `Altair` o
 ## Codificaciones
 
 Un gráfico es una representación visual de tus datos. Es esencial conectar tu información a un elemento visual en el gráfico. En `altair` eso se le conoce como __encode__ o _codificar_ tus datos. Es el proceso de asignar valores (en este caso columnas de tu __DataFrame__) a elementos posicionales (como el eje X o Y) o propiedades de tu marcador (como el color o el tamaño). 
-`Altair` es una biblioteca para crear gráficos altamente configurables asi que simplemente enlistar todas las codificaciones posibles sería una manera muy ineficáz de aprender. La mejor manera de aprender es haciendo. En los ejercicios de este cápitulos aprenderás sobre las bastas opciones que tienes para representar tus datos de manera gráfica con `altair`. 
+`Altair` es una biblioteca para crear gráficos altamente configurables asi que simplemente enlistar todas las codificaciones posibles sería una manera muy ineficáz de aprender. La mejor manera de aprender es haciendo.
 
+### Tipos de Datos
+
+`altair` hace un buen trabajo deduciendo el tipo de datos con el que estas trabajando al igual que `pandas`. Pero también puedes especificar el tipo de datos en tus gráficos. `Altair` reconoce 4 tipos de datos:
+
+| Tipo de datos | Código |                Descripción                | 
+|:-------------:|:------:|:------------------------------------------|
+| cuantitativo  |    Q   | una cantidad continua y de números reales | 
+| ordinal       |    O   | una cantidad discreta y ordenada          |
+| nominal       |    N   | una cantidad discreta y desordenada       |
+| temporal      |    T   | un valor de tiempo o fecha                |
+
+En los ejercicios de este cápitulos aprenderás sobre las bastas opciones que tienes para representar tus datos de manera gráfica con `altair`. 
 
 ***
 
