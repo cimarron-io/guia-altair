@@ -21,7 +21,7 @@ _Los gráficos de datos modernos pueden hacer mucho más que simplemente sustitu
 
 
 La visualización de datos efectiva es una habilidad técnica cada día más codiciada. No es sólo una herramienta útil para presentar resultados sino también para la exploración eficáz de datos. 
-Los gráficos bien diseñados son capaces de transferir una gran cantidad de información en poco tiempo. Toma por ejemplo la figuras 1. La figura 1, de Charles Joseph Minard, es una visualización de la marcha de Napoleón a Rusia. De izquierda a derecha puedes ver como la cantidad de soldados va disminuyendo (en dorado) conforme pasa el tiempo y se acercan a Rusia. En el panel inferior Minard también esta visualizando la temperatura del día. Minard esta representando 6 dimensiones de sus datos:
+Los gráficos bien diseñados son capaces de transferir una gran cantidad de información en poco tiempo. Toma por ejemplo la figura 1. La figura 1, de Charles Joseph Minard, es una visualización de la marcha de Napoleón a Rusia. De izquierda a derecha puedes ver como la cantidad de soldados va disminuyendo (en dorado) conforme pasa el tiempo y se acercan a Rusia. En el panel inferior Minard también esta visualizando la temperatura del día. Minard esta representando 6 dimensiones de sus datos:
 * **cambio en la cantidad** de soldados
 * la **dirección** de el ejercito
 * locación en un plano bidimensional - (X, Y), o en este caso de locación geografica, **longitud** y **latitud**.
