@@ -1,10 +1,10 @@
 ---
 redirect_from:
-  - "/section-02/5/conclusion"
+  - "/section-02/6/conclusion"
 title: 'Conclusión'
 prev_page:
-  url: /section-02/4/grafico_de_area
-  title: 'Gráfico de Area'
+  url: /section-02/5/mapa
+  title: 'Mapa'
 next_page:
   url: /glosario/glosario
   title: 'Glosario'

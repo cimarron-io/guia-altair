@@ -3,7 +3,7 @@ redirect_from:
   - "/glosario/glosario"
 title: 'Glosario'
 prev_page:
-  url: /section-02/5/conclusion
+  url: /section-02/6/conclusion
   title: 'Conclusión'
 next_page:
   url: 

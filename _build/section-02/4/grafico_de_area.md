@@ -7,8 +7,8 @@ prev_page:
   url: /section-02/3/grafico_de_dispersion
   title: 'Gráfico de Dispersíon'
 next_page:
-  url: /section-02/5/conclusion
-  title: 'Conclusión'
+  url: /section-02/4/mapa
+  title: 'Mapa'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -38,7 +38,7 @@ Si estas trabajando con este __notebook__ en un __jupyter notebook__ y no el __j
 
 {:.input_area}
 ```python
-# alt.renderers.enable("notebook")
+alt.renderers.enable("notebook")
 ```
 
 

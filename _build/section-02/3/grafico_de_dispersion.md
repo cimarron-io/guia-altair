@@ -38,7 +38,7 @@ Si estas trabajando con este __notebook__ en un __jupyter notebook__ y no el __j
 
 {:.input_area}
 ```python
-# alt.renderers.enable("notebook")
+alt.renderers.enable("notebook")
 ```
 
 
