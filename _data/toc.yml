@@ -20,7 +20,7 @@
   not_numbered: true
 
 - divider: true
-- header: Índice 
+- header: Módulo 0 
 
 - title: ¿Qué es la "Grámatica de Gráficos"?
   url: /section-01/gramatica-de-graficos
@@ -53,10 +53,17 @@
   - title: Conclusión
     url: /section-02/6/conclusion
 
+- divider: true
+- header: Módulo 1
+
+- title: Creación de Gráficos - Intermedio
+  url: /section-03/creacion-de-graficos
+  sections:
+    - title: Equis y ¿Qué?
+    - url: /section-03/1/equis-y-que
 
 
 - divider: true
-
 - title: Glosario
   url: /glosario/glosario
   not_numbered: true
