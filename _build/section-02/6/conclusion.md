@@ -6,8 +6,8 @@ prev_page:
   url: /section-02/5/mapa
   title: 'Mapa'
 next_page:
-  url: /glosario/glosario
-  title: 'Glosario'
+  url: /section-03/creacion-de-graficos
+  title: 'Creación de Gráficos - Intermedio'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 Conclusión

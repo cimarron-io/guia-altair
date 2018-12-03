@@ -7,7 +7,7 @@ prev_page:
   url: /section-02/3/grafico_de_dispersion
   title: 'Gráfico de Dispersíon'
 next_page:
-  url: /section-02/4/mapa
+  url: /section-02/5/mapa
   title: 'Mapa'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
