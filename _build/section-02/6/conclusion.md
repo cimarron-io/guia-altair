@@ -7,7 +7,7 @@ prev_page:
   title: 'Mapa'
 next_page:
   url: /section-03/creacion-de-graficos
-  title: 'Creación de Gráficos - Intermedio'
+  title: 'Creación de Gráficos'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 Conclusión
