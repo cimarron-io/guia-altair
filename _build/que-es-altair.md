@@ -63,7 +63,7 @@ alt.Chart(iris).mark_point().encode(
 
 
 
-![png](/home/jovyan/_build/que-es-altair_4_0.png)
+![png](que-es-altair_4_0.png)
 
 
 
