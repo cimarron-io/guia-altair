@@ -3,8 +3,8 @@ redirect_from:
   - "/glosario/glosario"
 title: 'Glosario'
 prev_page:
-  url: /section-03/1/equis-y-que
-  title: 'Equis y ¿Qué?'
+  url: /section-03/2/propiedades-de-un-grafico
+  title: 'Propiedades de un Gráfico'
 next_page:
   url: 
   title: ''

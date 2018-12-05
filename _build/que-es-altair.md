@@ -14,7 +14,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 # Altair
 
-`Altair` utiliza lo que se conoce como “gramatica de gráficos”. El énfasis es en _describir_ la apariencia visual y el comportamiento interactivo de tu visualización. La simplicidad de `altair` (que proviene de utilizar `Vega` y `Vega-lite`) la vuelve una herramienta muy eficáz para explorar y presentar datos.
+`Altair` es una biblioteca de `python` de código abierto para la visualización de datos basada en `Vega` y `Vega-Lite`.
+
+`Altair` utiliza lo que se conoce como “gramática de gráficos”. El énfasis es en _describir_ la apariencia visual y el comportamiento interactivo de tu visualización. La simplicidad de `altair` (que proviene de utilizar `Vega` y `Vega-lite`) la vuelve una herramienta muy eficáz para explorar y presentar datos.
 
 ## Instalación
 [Instrucciones completas en la documentación de Altair](https://altair-viz.github.io/getting_started/installation.html)
