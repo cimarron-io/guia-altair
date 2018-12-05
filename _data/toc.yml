@@ -62,7 +62,8 @@
   sections:
   - title: Equis y ¿Qué?
     url: /section-03/1/equis-y-que
-
+  - title: Propiedades de un Gráfico
+    url: /section-03/2/propiedades-de-un-grafico
 
 
 - divider: true

@@ -1,13 +1,13 @@
-¿Qué es la "grámatica de gráficos"?
+¿Qué es la "gramática de gráficos"?
 ===================================
 
-Definición de grámatica de gráficos:
+Definición de gramática de gráficos:
 
-Asi como la _grámatica_ nos ofrece la habilidad de construir oraciones en español combinando y organizando distintos elementos del lenguaje, la _grámatica de gráficos_ nos ofrece elementos básicos para crear gráficos. 
+Asi como la _gramática_ nos ofrece la habilidad de construir oraciones en español combinando y organizando distintos elementos del lenguaje, la _gramática de gráficos_ nos ofrece elementos básicos para crear gráficos. 
 
 En esencia, una gramática de gráficos es un marco que nos permite describir concisamente los componentes de cualquier gráfico.
 
-La primera proposición de una _grámatica de gráficos_ se le atribuye comúnmente a Leland Wilkinson quien escribió el libro [The Grammar of Graphics](https://www.springer.com/us/book/9780387245447).
+La primera proposición de una _gramática de gráficos_ se le atribuye comúnmente a Leland Wilkinson quien escribió el libro [The Grammar of Graphics](https://www.springer.com/us/book/9780387245447).
 
 __NOTA:__
 Hadley Wickham, de RStudio y el `tidyverse`, propuso una _grámatica de gráficos en capas_ basado en el trabajo original de Leland Wilkinson e incluyó una adaptación de esta grámatica en `R` en su paquete `ggplot2`. [Artículo](wickham.pdf)
