@@ -20,6 +20,24 @@
   not_numbered: true
 
 - divider: true
+- header: Prólogo
+
+- title: ¿Qué es "visualizar" datos?
+  url: /prologo/que-es/que-es-visualizar-datos
+  sections:
+  - title: ¿Qué es una "buena" visualización de datos?
+    url: /prologo/que-es/que-es-una-buena-visualizacion
+  - title: ¿Quién se beneficia de ser una gran visualizadora de datos?
+    url: /prologo/que-es/quien-gana-de-ser-un-master
+  - title: ¿Dónde visualizamos datos?
+    url: /prologo/que-es/donde-visualizamos-datos
+  - title: ¿Cuándo visualizamos datos?
+    url: /prologo/que-es/cuando-visualizamos-datos
+  - title: ¿Por qué visualizamos datos?
+    url: /prologo/que-es/por-que-visualizamos-datos
+
+
+- divider: true
 - header: Módulo 0 
 
 - title: ¿Qué es la "Grámatica de Gráficos"?
